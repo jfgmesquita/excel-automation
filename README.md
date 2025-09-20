@@ -91,11 +91,13 @@ Creates `[filename]_corrected.xlsx` with:
 
 ```
 excel-automation/
-├── app.py
-├── README.md
-├── requirements.txt
-├── transactions.xlsx
-└── venv/
+├── venv/               # Virtual environment (ignored by git)
+├── .gitignore           # Git ignore rules for Python projects
+├── LICENSE              # MIT License
+├── README.md             # Project documentation
+├── app.py                 # Main Excel automation script
+├── requirements.txt      # Python dependencies
+└── transactions.xlsx     # Sample data file for testing
 ```
-##
-##
+
+**Note:** `transactions.xlsx` is a sample file provided for testing. Replace it with your own Excel file or use a different filename when running the script.
