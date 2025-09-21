@@ -93,7 +93,6 @@ Creates `[filename]_corrected.xlsx` with:
 excel-automation/
 ├── venv/               # Virtual environment (ignored by git)
 ├── .gitignore          # Git ignore rules for Python projects
-├── LICENSE             # MIT License
 ├── README.md           # Project documentation
 ├── app.py              # Main Excel automation script
 ├── requirements.txt    # Python dependencies
